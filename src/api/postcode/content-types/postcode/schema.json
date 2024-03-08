@@ -1,0 +1,16 @@
+{
+  "kind": "singleType",
+  "collectionName": "postcodes",
+  "info": {
+    "singularName": "postcode",
+    "pluralName": "postcodes",
+    "displayName": "Postcode"
+  },
+  "options": {},
+  "pluginOptions": {},
+  "attributes": {
+    "Postcode": {
+      "type": "string"
+    }
+  }
+}

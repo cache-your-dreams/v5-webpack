@@ -1,0 +1,35 @@
+{
+  "name": "strapi-d-p-until-beta-blitz",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build --bundler=webpack",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/strapi": "0.0.0-experimental.22e8a4f31c0b65da00cc6c524a94de53fabc7a28",
+    "@strapi/plugin-users-permissions": "0.0.0-experimental.22e8a4f31c0b65da00cc6c524a94de53fabc7a28",
+    "@strapi/plugin-i18n": "0.0.0-experimental.22e8a4f31c0b65da00cc6c524a94de53fabc7a28",
+    "@strapi/plugin-cloud": "0.0.0-experimental.22e8a4f31c0b65da00cc6c524a94de53fabc7a28",
+    "better-sqlite3": "9.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "styled-components": "5.3.3"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "5352e21c-360b-4c09-aca2-4ef5b155069b"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
